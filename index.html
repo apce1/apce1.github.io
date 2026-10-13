@@ -4,7 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ander Perez · Analista de datos</title>
-<meta name="description" content="Portfolio de proyectos de análisis de datos con SQL, Python y Power BI.">
+<meta name="description" content="Portfolio de Ander Perez, analista de datos: proyectos con R, Python y Power BI en el ámbito financiero y de negocio.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ander Perez · Analista de datos">
+<meta property="og:description" content="Proyectos de análisis de datos con R, Python y Power BI.">
+<meta property="og:url" content="https://apce1.github.io">
+<meta property="og:image" content="https://apce1.github.io/dashboard.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -81,11 +87,10 @@ footer{padding:2.5rem 0 4rem;color:var(--muted)}
   <div class="wrap hero-grid">
     <div>
       <h1>Ander Perez</h1>
-      <!-- EDITA: una frase concreta sobre lo que haces y para quién -->
-      <p>Analista de datos. Convierto datos del sector bancario en decisiones claras con SQL, Python, R, Power BI y Tableau.</p>
+      <p>Analista de datos. Convierto datos del sector bancario y financiero en decisiones claras con R, Python y Power BI.</p>
       <div class="links">
         <a class="btn primary" href="#proyectos">Ver proyectos</a>
-        <a class="btn" href="https://www.linkedin.com/in/ander-perez-636a38310/?isSelfProfile=true" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://www.linkedin.com/in/ander-perez-636a38310/" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/apce1" rel="noopener">GitHub</a>
       </div>
     </div>
@@ -101,18 +106,18 @@ footer{padding:2.5rem 0 4rem;color:var(--muted)}
   <div class="wrap">
     <h2>Proyectos</h2>
 
-    <!-- PROYECTO 1: RELACIÓN ENTRE LA INCERTIDUMBRE DE LAS POLÍTICAS ECONÓMICAS Y LA VOLATILIDAD DEL IBEX 35: UN ENFOQUE INTEGRADO DE BIG DATA Y MODELIZACIÓN DINÁMICA CONDICIONAL -->
+    <!-- PROYECTO 1: Incertidumbre de políticas económicas y volatilidad del IBEX 35 -->
     <article class="project">
       <div class="meta">2026<br>R</div>
       <div>
-        <h3>RELACIÓN ENTRE LA INCERTIDUMBRE DE LAS POLÍTICAS ECONÓMICAS Y LA VOLATILIDAD DEL IBEX 35: UN ENFOQUE INTEGRADO DE BIG DATA Y MODELIZACIÓN DINÁMICA CONDICIONAL</h3>
-        <p><strong>Pregunta:</strong> ¿Qué problema de negocio querías resolver?</p>
-        <p><strong>Qué hice:</strong> Limpié y modelé los datos para el analisis cuantitativo entre la incertidumbre politica y la volatilidad del IBEX 35</p>
-        <p class="result"><strong>Resultado:</strong> Identifiqué que habia una causalidad directa entre la incertidumbre en estados unidos y la volatilidad del indice</p>
-        <ul class="tags"><li>SQL</li><li>Power BI</li><li>Modelado de datos</li></ul>
-        <div class="links">
-            <a href="https://github.com/tu-usuario/proyecto-1">Código</a>
-        </div>
+        <h3>Incertidumbre de políticas económicas y volatilidad del IBEX 35</h3>
+        <p><strong>Pregunta:</strong> ¿Influye la incertidumbre de las políticas económicas en la volatilidad del IBEX 35, y de qué economía procede ese efecto?</p>
+        <p><strong>Qué hice:</strong> Reuní y limpié series de datos de incertidumbre política y de mercado, y estimé modelos dinámicos condicionales de volatilidad en R para analizar la relación cuantitativa entre ambas.</p>
+        <p class="result"><strong>Resultado:</strong> La incertidumbre de las políticas de Estados Unidos muestra una relación significativa con la volatilidad del índice.</p>
+        <img class="shot" src="ibex_volatilidad.png" alt="Gráfico de la volatilidad del IBEX 35 frente a la incertidumbre de políticas económicas" loading="lazy" onerror="this.remove()">
+        <ul class="tags"><li>R</li><li>Big data</li><li>Series temporales</li><li>Modelos de volatilidad</li></ul>
+        <!-- Cuando subas el código a un repositorio, activa este enlace con su dirección real:
+        <div class="links"><a href="https://github.com/apce1/NOMBRE-DEL-REPO">Código</a></div> -->
       </div>
     </article>
 
@@ -141,18 +146,27 @@ footer{padding:2.5rem 0 4rem;color:var(--muted)}
         <img class="shot" src="notebook_tendencia.png" alt="Evolución mensual de ventas con media móvil de 3 meses" loading="lazy" onerror="this.remove()">
         <ul class="tags"><li>Python</li><li>pandas</li><li>matplotlib</li><li>seaborn</li><li>Análisis exploratorio</li></ul>
         <div class="links">
-          <a href="https://github.com/tu-usuario/tu-usuario.github.io/blob/main/ACT3_GPIN_6.ipynb">Ver el notebook</a>
+          <a href="https://github.com/apce1/apce1.github.io/blob/main/ACT3_GPIN_6.ipynb">Ver el notebook</a>
         </div>
       </div>
     </article>
+  </div>
+</section>
+
+<section id="sobre-mi">
+  <div class="wrap">
+    <h2>Sobre mí</h2>
+    <p style="max-width:40rem">Analista de datos enfocado en el sector bancario y financiero. Me interesa la analítica que acaba en una decisión: desde modelos de volatilidad en mercados hasta dashboards de segmentación de clientes.</p>
+  </div>
+</section>
 
 <section id="herramientas">
   <div class="wrap">
     <h2>Herramientas</h2>
     <div class="tools">
-      <div><h3>Consulta y modelado</h3><p>SQL (PostgreSQL, MySQL), Excel avanzado</p></div>
-      <div><h3>Análisis</h3><p>Python, pandas, NumPy, estadística descriptiva</p></div>
-      <div><h3>Visualización</h3><p>Power BI, Tableau, matplotlib</p></div>
+      <div><h3>Modelado y estadística</h3><p>R, series temporales, modelos de volatilidad, estadística descriptiva</p></div>
+      <div><h3>Análisis</h3><p>Python, pandas, NumPy, Excel</p></div>
+      <div><h3>Visualización</h3><p>Power BI (DAX), matplotlib, seaborn</p></div>
     </div>
   </div>
 </section>
@@ -160,7 +174,7 @@ footer{padding:2.5rem 0 4rem;color:var(--muted)}
 <section id="contacto" style="border-bottom:0">
   <div class="wrap">
     <h2>Contacto</h2>
-    <p>Escríbeme a <a href="mailto:anderperez434@gmail.com">anderperez434@gmail.com</a> o conecta conmigo en <a href="https://www.linkedin.com/in/ander-perez-636a38310/?isSelfProfile=true" rel="noopener">LinkedIn</a>.</p>
+    <p>Escríbeme a <a href="mailto:anderperez434@gmail.com">anderperez434@gmail.com</a> o conecta conmigo en <a href="https://www.linkedin.com/in/ander-perez-636a38310/" rel="noopener">LinkedIn</a>.</p>
   </div>
 </section>
 </main>
